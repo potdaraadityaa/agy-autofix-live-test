@@ -2,5 +2,5 @@ from math_utils import add
 
 
 def test_add():
-    # Intentionally failing test assertion
-    assert add(2, 3) == 5
+    # Deliberately failing test assertion for agy-autofix verification
+    assert add(10, 20) == 100

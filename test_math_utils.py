@@ -2,5 +2,5 @@ from math_utils import add
 
 
 def test_add():
-    # Deliberately failing assertion for GitHub Actions PR creation testing
-    assert add(100, 200) == 9999
+    # Deliberately failing assertion for agy-autofix verification
+    assert add(42, 42) == 99999

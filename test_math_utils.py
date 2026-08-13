@@ -2,5 +2,5 @@ from math_utils import add
 
 
 def test_add():
-    # Deliberately failing test assertion for agy-autofix verification
-    assert add(10, 20) == 100
+    # Deliberately failing assertion for self-hosted GitHub Actions workflow testing
+    assert add(50, 50) == 999

@@ -24,10 +24,9 @@ jobs:
           python --version
           pip --version
 
-      - name: Install agy-autofix & Dependencies
+      - name: Verify agy-autofix CLI Environment
         run: |
-          python -m pip install --upgrade pip
-          pip install .
+          agy-autofix --help
 
       - name: Configure Git
         run: |

@@ -1,0 +1,7 @@
+checks:
+  - name: "pytest"
+    command: "python -m pytest"
+
+branch:
+  prefix: "fix/auto-code-fix-"
+  target_base: "main"
